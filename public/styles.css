@@ -1,5 +1,5 @@
 .bg-secondary {
-  background-color: #be614b !important;
+  background-color: #277BC0!important;
 }
 .bg-custom {
   background-color: #6c757d !important;
@@ -8,6 +8,13 @@
   max-width: 15rem;
   border-top-left-radius: 20px;
   height: 100%;
+}
+.c-image{
+  height: 400px;
+}
+.f-img{
+  border-radius: 50%;
+  width: 200px;
 }
 #header-brand a.navbar-brand {
   font-size: 2.5vw;
@@ -19,6 +26,13 @@
   font-size: 1rem;
   text-transform: inherit;
 }
+.imagesSlide{
+  margin-left: 10rem;
+}
+.link{
+  text-decoration: none;
+  margin-right: 13rem;
+}
 .links {
   text-decoration: none;
   color: #be614b;
@@ -28,19 +42,34 @@
   margin-right: 2rem;
   margin-left: 8rem;
 }
-
+.logoImg{
+  height: 80px;
+  width: auto;
+}
 .navbarBrand {
   margin-right: 6rem;
 }
 .searchBar {
-  margin-left: 28rem;
+  margin-left: 16rem;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
   .cardDiv {
     margin: 0;
   }
   .searchBar {
+    margin: 0 !important;
+  }
+  .imagesSlide{
+    margin: 0;
+  }
+  
+  .c-image{
+    height: 200px;
+    width: 100% !important;
+  }
+  
+  .link{
     margin: 0 !important;
   }
 }
